@@ -1,17 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1> ETCH-A-SKETCH </h1>
+
+
+    <div id="grid-container" style="grid-template-columns: repeat(16, 1fr); grid-template-rows: repeat(16, 1fr);">
+        <div class="cell" data-darken="0" style="background-color: rgb(253, 2, 2);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(55, 0, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+        <div class="cell" data-darken="0" style="background-color: rgb(255, 255, 255);"></div>
+    </div>
+
     <div id="btn">
-    <button>Black</button>
-    <button> Rainbow</button>
-    <button> Reset</button>
+        <button>Black</button>
+        <button> Rainbow</button>
+        <button> Reset</button>
     </div>
 </body>
+
 </html>
