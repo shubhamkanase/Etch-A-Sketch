@@ -32,15 +32,44 @@ margin-left: 50px;
     color: rgb(0, 0, 0);
 }
 
+
+#btn{
+    margin-left: 170px;
+    margin-top: 90px;
+    /* padding: 20px 40px; */
+}
 #black{
+    display: block;
     margin: 20px 20px;
-    font-size: 28px;
-    padding: 12px;
+    font-size: 15px;
+    padding: 15px 22px;
+    color: #FFF;
+    background-color: black;
+    border-radius: 8px;
 }
 #rainBow{
-
+    display: block;
+    margin: 20px 20px;
+    font-size: 15px;
+    padding: 15px 11px;
+    background: linear-gradient(to bottom right, #0fdd31, #18c5fa, #ffb516);
+    border-radius: 8px;
 }
 
+#eraser{
+    display: block;
+    margin: 20px 20px;
+    font-size: 15px;
+    padding: 16px 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
 #reset{
-    
+    display: block;
+    margin: 20px 20px;
+    font-size: 15px;
+    padding: 15px 22px;
+    background-color: rgb(217, 248, 78);
+    border-radius: 8px;
+
 }

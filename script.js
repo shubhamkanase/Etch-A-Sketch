@@ -63,7 +63,15 @@ rainbow.addEventListener('click', () => {
 });
 
 
+const eraser = document.getElementById('eraser');
 
+eraser.addEventListener('click', () => {
+  const cells = document.querySelectorAll('#grid-container div');
+  cells.forEach(cell => {
+      cell.style.backgroundColor ='white';
+  });
+
+});
 const reset = document.getElementById('reset');
 
 reset.addEventListener('click', () => {
