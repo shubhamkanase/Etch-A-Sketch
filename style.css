@@ -7,9 +7,26 @@
     height: 550px;
     width: 550px;
     border: 5px rgba(0, 0, 0, 0.404) solid;
+    background-color: #FFF;
+
 }
 
 .cell{
     border: 1px solid black;
     
+    
+}
+
+body{
+    background-color: #d065f3;
+  background-image: linear-gradient(to bottom right,  #3643e1, #d38524cc);
+  color: #FFF;
+}
+
+#tittle{
+
+margin-left: 50px;
+    font-size: 40px;
+    text-shadow: 0 0 13px #FFF;
+    color: chartreuse;
 }
