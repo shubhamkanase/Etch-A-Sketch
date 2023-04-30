@@ -6,39 +6,42 @@
     display: grid;
     height: 550px;
     width: 550px;
-    border: 5px rgba(0, 0, 0, 0.822) solid;
+    border: 4px rgba(0, 0, 0, 0.822) solid;
     background-color: #FFF;
     margin-top: -32px;
 
 }
 
-.cell{
+.cell {
     border: 1px solid black;
-    
-    
+
+
 }
 
-body{
+body {
     background-color: #d065f3;
-  background-image: linear-gradient(to bottom right,  #3643e1, #d38524cc);
-  color: #FFF;
+    background-image: linear-gradient(to bottom right, #3643e1, #d38524cc);
+    color: #FFF;
 }
 
-#tittle{
+#tittle {
 
-margin-left: 50px;
+    margin-left: 70px;
     font-size: 50px;
     text-shadow: 0 0 8px #ffffff;
     color: rgb(0, 0, 0);
 }
 
 
-#btn{
-    margin-left: 170px;
-    margin-top: 90px;
+#btn {
+    margin-left: 200px;
+    margin-top: -20px;
     /* padding: 20px 40px; */
+    text-shadow: 0 0 8px #ff0d0d;
+
 }
-#black{
+
+#black {
     display: block;
     margin: 20px 20px;
     font-size: 15px;
@@ -46,30 +49,147 @@ margin-left: 50px;
     color: #FFF;
     background-color: black;
     border-radius: 8px;
+    text-shadow: 0 0 8px #ffffff;
+    cursor: pointer;
+
 }
-#rainBow{
+
+#rainBow {
     display: block;
     margin: 20px 20px;
     font-size: 15px;
     padding: 15px 11px;
     background: linear-gradient(to bottom right, #0fdd31, #18c5fa, #ffb516);
+    text-shadow: 0 0 8px #ffffff;
     border-radius: 8px;
+    cursor: pointer;
 }
 
-#eraser{
+#eraser {
     display: block;
     margin: 20px 20px;
     font-size: 15px;
     padding: 16px 15px;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
+    text-shadow: 0 0 8px #ffffff;
+    cursor: pointer;
 }
-#reset{
+
+#reset {
     display: block;
     margin: 20px 20px;
     font-size: 15px;
     padding: 15px 22px;
     background-color: rgb(217, 248, 78);
     border-radius: 8px;
+    text-shadow: 0 0 8px #ffffff;
+    cursor: pointer;
+
+}
+
+#creatGrid {
+    display: inline;
+    margin-left: 280px;
+    margin-top: -80px;
+    margin: 50px 90px;
+    padding-top: 20px;
+    text-shadow: 0 0 8px #ffffff;
+
+
+}
+
+#eight {
+    margin: 50px 20px;
+    padding: 20px 20px;
+    font-size: 20px;
+    border-radius: 120px;
+    background-color: #3b3939;
+    color: #FFF;
+    cursor: pointer;
+    text-shadow: 0 0 7px #00ff22;
+
+
+
+}
+
+#sixteen {
+    margin: 20px 20px;
+    padding: 20px 8px;
+    font-size: 20px;
+    border-radius: 120px;
+    background-color: #3b3939;
+    color: #FFF;
+    text-shadow: 0 0 7px #00ff22;
+    cursor: pointer;
+
+
+}
+
+#thirtyTwo {
+    margin: 20px 20px;
+    padding: 20px 8px;
+    font-size: 20px;
+    border-radius: 120px;
+    text-shadow: 0 0 8px #ffffff;
+    background-color: #3b3939;
+    color: #FFF;
+    text-shadow: 0 0 7px #00ff22;
+    cursor: pointer;
+
+}
+
+#text {
+    margin-left: 180px;
+    margin-bottom: -20px;
+    text-shadow: 0 0 8px #000000;
+
+}
+
+
+#eight:hover {
+   
+    border-color: #ffffff;
+    transform: scale(1.1);
+}
+
+#sixteen:hover {
+    
+    border-color: #ffffff;
+    transform: scale(1.1);
+}
+
+#thirtyTwo:hover {
+    
+    border-color: #ffffff;
+    transform: scale(1.1);
+}
+
+#black:hover{
+
+    transform: scale(1.1);
+    border-color: #000000;
+
+}
+
+
+#rainBow:hover{
+
+    transform: scale(1.1);
+    border-color: #000000;
+
+}
+
+#eraser:hover{
+
+    transform: scale(1.1);
+    border-color: #000000;
+
+}
+
+#reset:hover{
+
+    transform: scale(1.1);
+    border-color: #080808;
 
 }
